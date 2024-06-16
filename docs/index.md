@@ -1,12 +1,7 @@
-# Welcome to MkDocs
+# Welcome Page
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+一个动态的笔记，为了看起来方便
 
-## loadPoint's Dynamic Note
-Try GitHub Pages
+**下面是目录**
 
-一个动态的笔记，为了记笔记方便
-
-Index
-
-[数据结构](./CS-150/DSA-70/index.md)
+[数据结构](./CS-150/DSA-70/overall.md)

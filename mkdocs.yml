@@ -2,3 +2,5 @@ site_name: loadPoint's Dynamic Note for 2024
 site_url: https://loadpoint.github.io/
 theme:
   name: material
+  features:
+    - navigation.tabs
