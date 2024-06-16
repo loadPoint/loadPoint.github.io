@@ -1,36 +1,32 @@
-name: Deploy Docs
+name: Deploy MkDocs to GitHub Pages
 
 on:
   push:
     branches:
-      - master
+      - master  # replace with your default branch if not 'main'
 
 jobs:
-  build-deploy:
-    name: Build and deploy docs
-
+  deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout 🛎️
+      - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Set up Python 3 ⚙️ 🐍
+      - name: Set up Python
         uses: actions/setup-python@v2
-
-      - name: Cache dependencies 💾
-        uses: actions/cache@v2
         with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('docs/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-            ${{ runner.os }}-
+          python-version: 3.8
 
-      - name: Install dependencies 🔧
-        working-directory: docs
-        run: make install
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install mkdocs
 
-      - name: Build and deploy to GitHub Pages 🏗️ 🚀
-        working-directory: docs
-        run: make deploy
+      - name: Build site
+        run: mkdocs build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
