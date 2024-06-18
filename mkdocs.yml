@@ -4,3 +4,11 @@ theme:
   name: material
   features:
     - navigation.tabs
+nav:
+  - 'index.md'
+  - CS-150:
+    - DSA-70:
+      - '概述': 'CS-150/DSA-70/dsa.md'
+      - '树类': 'CS-150/DSA-70/dsa-tree.md'
+    - OS-30:
+      - '概述': 'CS-150/OS-30/os.md'
