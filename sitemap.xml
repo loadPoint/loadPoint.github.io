@@ -6,17 +6,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://loadpoint.github.io/CS-150/DSA-70/overall/</loc>
+         <loc>https://loadpoint.github.io/CS-150/DSA-70/dsa-tree/</loc>
          <lastmod>2024-06-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://loadpoint.github.io/CS-150/DSA-70/tree/</loc>
+         <loc>https://loadpoint.github.io/CS-150/DSA-70/dsa/</loc>
          <lastmod>2024-06-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://loadpoint.github.io/CS-150/OS-30/overall/</loc>
+         <loc>https://loadpoint.github.io/CS-150/OS-30/os/</loc>
+         <lastmod>2024-06-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://loadpoint.github.io/CS-150/PCC-30/pcc/</loc>
          <lastmod>2024-06-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
