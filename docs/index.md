@@ -8,6 +8,8 @@
 
 [数据结构](./CS-150/DSA-70/overall.md)
 
+[OI Wiki](https://oi-wiki.org/)
+
 [首页 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/)
 
 ## 其它信息
