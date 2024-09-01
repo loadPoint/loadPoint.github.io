@@ -4,6 +4,8 @@
 
 ## 传送门
 
+[全国硕士研究生招生考试网上报名平台 (chsi.com.cn)](https://yz.chsi.com.cn/yzwb/)
+
 [OI Wiki](https://oi-wiki.org/)
 
 [首页 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/)
